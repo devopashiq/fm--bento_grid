@@ -31,6 +31,24 @@ main {
   'area8'
 ;
 
+  @include breakpoint(medium){
+    grid-auto-columns: 1fr;
+   grid-template-areas: 
+   'area4 area1'
+  'area4 area1'
+  'area2 area7'
+  'area2 area7'
+  'area8 area5'
+  'area8 area5'
+  'area6 area3';
+ 
+   
+
+
+   
+   
+  }
+  
   @include breakpoint(large){
     grid-template-columns: 0.7fr 0.6fr 0.6fr 0.6fr;
     grid-template-rows: 0.5fr 0.2fr 0.3fr 0.6fr;
